@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="#">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"> 
+
+</head>
+
+<body>
+    <main>
+    <header class="w-full h-16 bg-transparent z-50 flex justify-between">
+        <div class="container md:px-0 h-full mx-4 flex justify-between items-center">
+
+            <!-- Medium resolution upwards contact info -->
+            <ul class="hidden md:flex md:flex-col md:m-2 md:mt-12 md:w-[100px]">
+                <li>phone</li>
+                <li>email</li>
+            </ul>
+
+            <!-- Logo Here -->
+            <a href="index.html" 
+               style="background-image: url('/images/logo.png');"
+               class="w-full h-9 bg-no-repeat bg-contain 
+            md:w-[160px] md:h-12 md:mt-10"></a>
+
+
+            <!-- Menu links here -->
+            <ul id="menu" class="hidden fixed top-0 right-0 px-10 py-16 bg-gray-800 z-50
+                md:relative md:flex md:p-0 md:bg-transparent md:flex-row md:space-x-6 md:mt-4 md:w-[120px] md:text-right">
+                <li class="md:hidden z-90 fixed top-4 right-6">
+                    <a href="javascript:void(0)" class="text-right text-white text-4xl"
+                        onclick="toggleMenu()">&times;</a>
+                </li>
+                <li><a class="sm:text-black text-white opacity-70 hover:opacity-100 duration-300 text-2xl" href="#">APIE MANE</a></li>
+                <h1 class="text-white text-2xl my-3">SUSISIEK SU MANIM!</h1>
+                <ul class="sm:hidden text-white">
+                    <li class="flex h-2">
+                        <img src="/images/email_white.png" class="block w-[20px] h-[20px] translate-y-16">
+                        <span class="mx-4 pb-[10px]">augustinas@augis.lt</span>
+                    </li>
+                    <li class="flex h-2">
+                        <img src="/images/phone-call_white.png" class="block w-[20px] h-[20px] translate-y-16">
+                        <span class="mx-4 pb-[10px]">+370 678 64 334</span>
+                    </li>
+                </ul>
+            </ul>
+
+            <!-- This is used to open the menu on mobile devices -->
+            <div class="flex md:hidden items-center mr-2">
+                <button class="menuToggle text-black text-4xl font-bold hover:opacity-100 duration-300 mb-3"
+                    onclick="toggleMenu()">
+                    &#9776;
+                </button>
+            </div>
+    </header>
+
+    <section class="h-fit mx-3 relative">
+        <div class="relative">
+            <img class="object-cover h-550" src="/images/galva10.jpg" alt=""> 
+            <span class="text-gray-200 p-3 absolute top-0">Lorem ipsum sdolor, sit amet consectetur adipisicing elit. Ducimus voluptas accusantium</span>
+        </div>
+        <div class="relative">
+            <img class="object-cover h-550 w-full my-3" src="/images/galva2.jpg" alt=""> 
+            <span class="text-gray-200 p-3 absolute top-0">Lorem ipsum sdolor, sit amet consectetur adipisicing elit. Ducimus voluptas accusantium</span>
+        </div>
+        <div class="relative">
+            <img class="object-cover h-550 w-full my-3" src="/images/galva7.jpg" alt=""> 
+            <span class="text-gray-200 p-3 absolute top-0">Lorem ipsum sdolor, sit amet consectetur adipisicing elit. Ducimus voluptas accusantium</span>
+        </div>
+        <a href="workpage.html"><button class="fixed bottom-0 right-0 px-12 py-2 border-4 border-black bg-white m-3 font-bold">GRĮŽTI</button></a>
+    </section>
+
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
+
