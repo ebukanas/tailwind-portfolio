@@ -14,53 +14,61 @@
 
 <body>
     <main>
-    <header class="w-full h-16 bg-transparent z-50 flex justify-between">
-        <div class="container md:px-0 h-full mx-4 flex justify-between items-center">
-
-            <!-- Medium resolution upwards contact info -->
-            <ul class="hidden md:flex md:flex-col md:m-2 md:mt-12 md:w-[100px]">
-                <li>phone</li>
-                <li>email</li>
-            </ul>
-
-            <!-- Logo Here -->
-            <a href="index.html" 
-               style="background-image: url('/images/logo.png');"
-               class="w-full h-9 bg-no-repeat bg-contain 
-            md:w-[160px] md:h-12 md:mt-10"></a>
-
-
-            <!-- Menu links here -->
-            <ul id="menu" class="hidden fixed top-0 right-0 px-10 py-16 bg-gray-800 z-50
-                md:relative md:flex md:p-0 md:bg-transparent md:flex-row md:space-x-6 md:mt-4 md:w-[120px] md:text-right">
-                <li class="md:hidden z-90 fixed top-4 right-6">
-                    <a href="javascript:void(0)" class="text-right text-white text-4xl"
-                        onclick="toggleMenu()">&times;</a>
-                </li>
-                <li><a class="sm:text-black text-white opacity-70 hover:opacity-100 duration-300 text-2xl" href="#">APIE MANE</a></li>
-                <h1 class="text-white text-2xl my-3">SUSISIEK SU MANIM!</h1>
-                <ul class="sm:hidden text-white">
-                    <li class="flex h-2">
-                        <img src="/images/email_white.png" class="block w-[20px] h-[20px] translate-y-16">
-                        <span class="mx-4 pb-[10px]">augustinas@augis.lt</span>
-                    </li>
-                    <li class="flex h-2">
-                        <img src="/images/phone-call_white.png" class="block w-[20px] h-[20px] translate-y-16">
-                        <span class="mx-4 pb-[10px]">+370 678 64 334</span>
-                    </li>
+        <header class="w-full h-16 bg-white fixed z-50 flex justify-between">
+            <div class="container md:px-0 h-full mx-4 flex justify-between items-center">
+    
+                <!-- Medium resolution upwards contact info -->
+                <ul class="hidden md:flex md:flex-col md:m-2 md:mt-12 md:w-[100px]">
+                    <li>phone</li>
+                    <li>email</li>
                 </ul>
-            </ul>
-
-            <!-- This is used to open the menu on mobile devices -->
-            <div class="flex md:hidden items-center mr-2">
-                <button class="menuToggle text-black text-4xl font-bold hover:opacity-100 duration-300 mb-3"
-                    onclick="toggleMenu()">
-                    &#9776;
-                </button>
+    
+                <!-- Logo Here -->
+                <a href="index.html" class="bg-logo-black w-full h-9 bg-no-repeat bg-contain z-50
+                md:w-[160px] md:h-12 md:mt-10"></a>
+    
+                <!-- Menu links here -->
+                <div id="menu" class="hidden fixed top-0 right-0">
+                <ul class="top-0 right-0 w-full h-screen py-16 z-50 font-bold flex flex-col justify-center bg-hero2 bg-left bg-550 bg-blue bg-blend-luminosity
+                    md:relative md:flex md:p-0 md:bg-transparent md:flex-row md:space-x-6 md:mt-4 md:w-[120px] md:text-right">
+    
+                    <li class="md:hidden fixed top-4 flex flex-col w-full justify-between px-4">
+                        <a href="javascript:void(0)" class="text-right text-4xl mr-2 self-end -mt-2"
+                            onclick="toggleMenu()">&times;</a>
+                    </li>
+                    <!-- -mt-16 to compensate for the heading height-->
+                <div class="px-8 -mt-16">
+                    <h1 class="text-2xl my-3 text-center font-futura">NAVIGUOJAM!</h1>
+                    <li class="mt-4 py-2 border-4 border-black flex justify-center bg-white"><a class="text-md" href="#">APIE MANE</a></li>
+                    <li class="mt-4 py-2 border-4 border-black flex justify-center bg-white"><a class="text-md" href="#">MANO DARBAI</a></li>
+    
+                    <h1 class="text-2xl my-3 text-center pt-4">SUSISIEKIAM!</h1>
+                    <ul class="sm:hidden">
+                        <li class="py-2 border-4 border-black flex justify-center bg-white">
+                            <img src="/images/email.png" class="block ml-1 mt-0.5 h-6">
+                            <span class="mt-px mx-3">augustinas@augis.lt</span>
+                        </li>
+                        <li class="py-2 border-4 border-black mt-4 flex justify-center bg-white">
+                            <img src="/images/phone-call.png" class="block ml-0.5 mt-px h-6">
+                            <span class="mt-px mx-3">+370 678 64 334</span>
+                        </li>
+                    </ul>
+                </div>
+                    
+                </ul>
             </div>
-    </header>
-
-    <section class="h-fit mx-3 relative">
+    
+    
+                <!-- This is used to open the menu on mobile devices -->
+                <div class="flex md:hidden items-center mr-2 z-96">
+                    <button class="menuToggle text-black text-4xl font-bold hover:opacity-100 duration-300 mb-3"
+                        onclick="toggleMenu()">
+                        &#9776;
+                    </button>
+                </div>
+        </header>
+    
+    <section class="h-fit mx-3 relative pt-16">
         <div class="relative">
             <img class="object-cover h-550" src="/images/galva10.jpg" alt=""> 
             <span class="text-gray-200 p-3 absolute top-0">Lorem ipsum sdolor, sit amet consectetur adipisicing elit. Ducimus voluptas accusantium</span>

@@ -15433,54 +15433,9 @@ h1, heading, button {
   background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
 }
 
-.bg-yellow-50 {
+.bg-yellow {
   --tw-bg-opacity: 1;
-  background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-}
-
-.bg-yellow-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-}
-
-.bg-yellow-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-}
-
-.bg-yellow-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-}
-
-.bg-yellow-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-}
-
-.bg-yellow-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-}
-
-.bg-yellow-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-}
-
-.bg-yellow-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-}
-
-.bg-yellow-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-}
-
-.bg-yellow-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+  background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
 }
 
 .bg-green-50 {
@@ -15643,6 +15598,11 @@ h1, heading, button {
   background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
 }
 
+.bg-pamaskomu-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+}
+
 .group:hover .group-hover\:bg-transparent {
   background-color: transparent;
 }
@@ -15761,54 +15721,9 @@ h1, heading, button {
   background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
 }
 
-.group:hover .group-hover\:bg-yellow-50 {
+.group:hover .group-hover\:bg-yellow {
   --tw-bg-opacity: 1;
-  background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-}
-
-.group:hover .group-hover\:bg-yellow-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-}
-
-.group:hover .group-hover\:bg-yellow-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-}
-
-.group:hover .group-hover\:bg-yellow-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-}
-
-.group:hover .group-hover\:bg-yellow-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-}
-
-.group:hover .group-hover\:bg-yellow-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-}
-
-.group:hover .group-hover\:bg-yellow-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-}
-
-.group:hover .group-hover\:bg-yellow-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-}
-
-.group:hover .group-hover\:bg-yellow-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-}
-
-.group:hover .group-hover\:bg-yellow-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+  background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
 }
 
 .group:hover .group-hover\:bg-green-50 {
@@ -15971,6 +15886,11 @@ h1, heading, button {
   background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
 }
 
+.group:hover .group-hover\:bg-pamaskomu-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+}
+
 .focus-within\:bg-transparent:focus-within {
   background-color: transparent;
 }
@@ -16089,54 +16009,9 @@ h1, heading, button {
   background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
 }
 
-.focus-within\:bg-yellow-50:focus-within {
+.focus-within\:bg-yellow:focus-within {
   --tw-bg-opacity: 1;
-  background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-}
-
-.focus-within\:bg-yellow-100:focus-within {
-  --tw-bg-opacity: 1;
-  background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-}
-
-.focus-within\:bg-yellow-200:focus-within {
-  --tw-bg-opacity: 1;
-  background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-}
-
-.focus-within\:bg-yellow-300:focus-within {
-  --tw-bg-opacity: 1;
-  background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-}
-
-.focus-within\:bg-yellow-400:focus-within {
-  --tw-bg-opacity: 1;
-  background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-}
-
-.focus-within\:bg-yellow-500:focus-within {
-  --tw-bg-opacity: 1;
-  background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-}
-
-.focus-within\:bg-yellow-600:focus-within {
-  --tw-bg-opacity: 1;
-  background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-}
-
-.focus-within\:bg-yellow-700:focus-within {
-  --tw-bg-opacity: 1;
-  background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-}
-
-.focus-within\:bg-yellow-800:focus-within {
-  --tw-bg-opacity: 1;
-  background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-}
-
-.focus-within\:bg-yellow-900:focus-within {
-  --tw-bg-opacity: 1;
-  background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+  background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
 }
 
 .focus-within\:bg-green-50:focus-within {
@@ -16299,6 +16174,11 @@ h1, heading, button {
   background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
 }
 
+.focus-within\:bg-pamaskomu-blue:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+}
+
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -16417,54 +16297,9 @@ h1, heading, button {
   background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
 }
 
-.hover\:bg-yellow-50:hover {
+.hover\:bg-yellow:hover {
   --tw-bg-opacity: 1;
-  background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-}
-
-.hover\:bg-yellow-100:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-}
-
-.hover\:bg-yellow-200:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-}
-
-.hover\:bg-yellow-300:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-}
-
-.hover\:bg-yellow-400:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-}
-
-.hover\:bg-yellow-500:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-}
-
-.hover\:bg-yellow-600:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-}
-
-.hover\:bg-yellow-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-}
-
-.hover\:bg-yellow-800:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-}
-
-.hover\:bg-yellow-900:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+  background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
 }
 
 .hover\:bg-green-50:hover {
@@ -16627,6 +16462,11 @@ h1, heading, button {
   background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
 }
 
+.hover\:bg-pamaskomu-blue:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+}
+
 .focus\:bg-transparent:focus {
   background-color: transparent;
 }
@@ -16745,54 +16585,9 @@ h1, heading, button {
   background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
 }
 
-.focus\:bg-yellow-50:focus {
+.focus\:bg-yellow:focus {
   --tw-bg-opacity: 1;
-  background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-}
-
-.focus\:bg-yellow-100:focus {
-  --tw-bg-opacity: 1;
-  background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-}
-
-.focus\:bg-yellow-200:focus {
-  --tw-bg-opacity: 1;
-  background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-}
-
-.focus\:bg-yellow-300:focus {
-  --tw-bg-opacity: 1;
-  background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-}
-
-.focus\:bg-yellow-400:focus {
-  --tw-bg-opacity: 1;
-  background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-}
-
-.focus\:bg-yellow-500:focus {
-  --tw-bg-opacity: 1;
-  background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-}
-
-.focus\:bg-yellow-600:focus {
-  --tw-bg-opacity: 1;
-  background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-}
-
-.focus\:bg-yellow-700:focus {
-  --tw-bg-opacity: 1;
-  background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-}
-
-.focus\:bg-yellow-800:focus {
-  --tw-bg-opacity: 1;
-  background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-}
-
-.focus\:bg-yellow-900:focus {
-  --tw-bg-opacity: 1;
-  background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+  background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
 }
 
 .focus\:bg-green-50:focus {
@@ -16953,6 +16748,11 @@ h1, heading, button {
 .focus\:bg-pink-900:focus {
   --tw-bg-opacity: 1;
   background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
+}
+
+.focus\:bg-pamaskomu-blue:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
 }
 
 .bg-opacity-0 {
@@ -30849,7 +30649,7 @@ h1, heading, button {
 
 /* CUSTOM FONTS */
 
-[data-logo="bg-white"], [data-logo="bg-gray"] {
+[data-logo="bg-white"], [data-logo="bg-gray"], [data-logo="bg-blue"] {
   background: url(/images/logo.png) no-repeat;
   background-size: cover;
 }
@@ -30872,6 +30672,13 @@ h1, heading, button {
 
 [data-header="bg-gray"] {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+[data-header="bg-blue"] {
+  background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -45680,54 +45487,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .sm\:bg-yellow-50 {
+  .sm\:bg-yellow {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .sm\:bg-yellow-100 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .sm\:bg-yellow-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .sm\:bg-yellow-300 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .sm\:bg-yellow-400 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .sm\:bg-yellow-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .sm\:bg-yellow-600 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .sm\:bg-yellow-700 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .sm\:bg-yellow-800 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .sm\:bg-yellow-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .sm\:bg-green-50 {
@@ -45890,6 +45652,11 @@ h1, heading, button {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .sm\:bg-pamaskomu-blue {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+  }
+
   .group:hover .sm\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -46008,54 +45775,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .group:hover .sm\:group-hover\:bg-yellow-50 {
+  .group:hover .sm\:group-hover\:bg-yellow {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .group:hover .sm\:group-hover\:bg-yellow-100 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .group:hover .sm\:group-hover\:bg-yellow-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .group:hover .sm\:group-hover\:bg-yellow-300 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .group:hover .sm\:group-hover\:bg-yellow-400 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .group:hover .sm\:group-hover\:bg-yellow-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .group:hover .sm\:group-hover\:bg-yellow-600 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .group:hover .sm\:group-hover\:bg-yellow-700 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .group:hover .sm\:group-hover\:bg-yellow-800 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .group:hover .sm\:group-hover\:bg-yellow-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .group:hover .sm\:group-hover\:bg-green-50 {
@@ -46218,6 +45940,11 @@ h1, heading, button {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .group:hover .sm\:group-hover\:bg-pamaskomu-blue {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+  }
+
   .sm\:focus-within\:bg-transparent:focus-within {
     background-color: transparent;
   }
@@ -46336,54 +46063,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .sm\:focus-within\:bg-yellow-50:focus-within {
+  .sm\:focus-within\:bg-yellow:focus-within {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .sm\:focus-within\:bg-yellow-100:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .sm\:focus-within\:bg-yellow-200:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .sm\:focus-within\:bg-yellow-300:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .sm\:focus-within\:bg-yellow-400:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .sm\:focus-within\:bg-yellow-500:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .sm\:focus-within\:bg-yellow-600:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .sm\:focus-within\:bg-yellow-700:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .sm\:focus-within\:bg-yellow-800:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .sm\:focus-within\:bg-yellow-900:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .sm\:focus-within\:bg-green-50:focus-within {
@@ -46546,6 +46228,11 @@ h1, heading, button {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .sm\:focus-within\:bg-pamaskomu-blue:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+  }
+
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -46664,54 +46351,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .sm\:hover\:bg-yellow-50:hover {
+  .sm\:hover\:bg-yellow:hover {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .sm\:hover\:bg-yellow-100:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .sm\:hover\:bg-yellow-200:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .sm\:hover\:bg-yellow-300:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .sm\:hover\:bg-yellow-400:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .sm\:hover\:bg-yellow-500:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .sm\:hover\:bg-yellow-600:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .sm\:hover\:bg-yellow-700:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .sm\:hover\:bg-yellow-800:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .sm\:hover\:bg-yellow-900:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .sm\:hover\:bg-green-50:hover {
@@ -46874,6 +46516,11 @@ h1, heading, button {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .sm\:hover\:bg-pamaskomu-blue:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+  }
+
   .sm\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -46992,54 +46639,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .sm\:focus\:bg-yellow-50:focus {
+  .sm\:focus\:bg-yellow:focus {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .sm\:focus\:bg-yellow-100:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .sm\:focus\:bg-yellow-200:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .sm\:focus\:bg-yellow-300:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .sm\:focus\:bg-yellow-400:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .sm\:focus\:bg-yellow-500:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .sm\:focus\:bg-yellow-600:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .sm\:focus\:bg-yellow-700:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .sm\:focus\:bg-yellow-800:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .sm\:focus\:bg-yellow-900:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .sm\:focus\:bg-green-50:focus {
@@ -47200,6 +46802,11 @@ h1, heading, button {
   .sm\:focus\:bg-pink-900:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-pamaskomu-blue:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
   }
 
   .sm\:bg-opacity-0 {
@@ -75532,54 +75139,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .md\:bg-yellow-50 {
+  .md\:bg-yellow {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .md\:bg-yellow-100 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .md\:bg-yellow-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .md\:bg-yellow-300 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .md\:bg-yellow-400 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .md\:bg-yellow-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .md\:bg-yellow-600 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .md\:bg-yellow-700 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .md\:bg-yellow-800 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .md\:bg-yellow-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .md\:bg-green-50 {
@@ -75742,6 +75304,11 @@ h1, heading, button {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .md\:bg-pamaskomu-blue {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+  }
+
   .group:hover .md\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -75860,54 +75427,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .group:hover .md\:group-hover\:bg-yellow-50 {
+  .group:hover .md\:group-hover\:bg-yellow {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .group:hover .md\:group-hover\:bg-yellow-100 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .group:hover .md\:group-hover\:bg-yellow-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .group:hover .md\:group-hover\:bg-yellow-300 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .group:hover .md\:group-hover\:bg-yellow-400 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .group:hover .md\:group-hover\:bg-yellow-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .group:hover .md\:group-hover\:bg-yellow-600 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .group:hover .md\:group-hover\:bg-yellow-700 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .group:hover .md\:group-hover\:bg-yellow-800 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .group:hover .md\:group-hover\:bg-yellow-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .group:hover .md\:group-hover\:bg-green-50 {
@@ -76070,6 +75592,11 @@ h1, heading, button {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .group:hover .md\:group-hover\:bg-pamaskomu-blue {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+  }
+
   .md\:focus-within\:bg-transparent:focus-within {
     background-color: transparent;
   }
@@ -76188,54 +75715,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .md\:focus-within\:bg-yellow-50:focus-within {
+  .md\:focus-within\:bg-yellow:focus-within {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .md\:focus-within\:bg-yellow-100:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .md\:focus-within\:bg-yellow-200:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .md\:focus-within\:bg-yellow-300:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .md\:focus-within\:bg-yellow-400:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .md\:focus-within\:bg-yellow-500:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .md\:focus-within\:bg-yellow-600:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .md\:focus-within\:bg-yellow-700:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .md\:focus-within\:bg-yellow-800:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .md\:focus-within\:bg-yellow-900:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .md\:focus-within\:bg-green-50:focus-within {
@@ -76398,6 +75880,11 @@ h1, heading, button {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .md\:focus-within\:bg-pamaskomu-blue:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -76516,54 +76003,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .md\:hover\:bg-yellow-50:hover {
+  .md\:hover\:bg-yellow:hover {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .md\:hover\:bg-yellow-100:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .md\:hover\:bg-yellow-200:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .md\:hover\:bg-yellow-300:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .md\:hover\:bg-yellow-400:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .md\:hover\:bg-yellow-500:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .md\:hover\:bg-yellow-600:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .md\:hover\:bg-yellow-700:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .md\:hover\:bg-yellow-800:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .md\:hover\:bg-yellow-900:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .md\:hover\:bg-green-50:hover {
@@ -76726,6 +76168,11 @@ h1, heading, button {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .md\:hover\:bg-pamaskomu-blue:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+  }
+
   .md\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -76844,54 +76291,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .md\:focus\:bg-yellow-50:focus {
+  .md\:focus\:bg-yellow:focus {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .md\:focus\:bg-yellow-100:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .md\:focus\:bg-yellow-200:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .md\:focus\:bg-yellow-300:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .md\:focus\:bg-yellow-400:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .md\:focus\:bg-yellow-500:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .md\:focus\:bg-yellow-600:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .md\:focus\:bg-yellow-700:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .md\:focus\:bg-yellow-800:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .md\:focus\:bg-yellow-900:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .md\:focus\:bg-green-50:focus {
@@ -77052,6 +76454,11 @@ h1, heading, button {
   .md\:focus\:bg-pink-900:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-pamaskomu-blue:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
   }
 
   .md\:bg-opacity-0 {
@@ -105384,54 +104791,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .lg\:bg-yellow-50 {
+  .lg\:bg-yellow {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .lg\:bg-yellow-100 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .lg\:bg-yellow-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .lg\:bg-yellow-300 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .lg\:bg-yellow-400 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .lg\:bg-yellow-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .lg\:bg-yellow-600 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .lg\:bg-yellow-700 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .lg\:bg-yellow-800 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .lg\:bg-yellow-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .lg\:bg-green-50 {
@@ -105594,6 +104956,11 @@ h1, heading, button {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .lg\:bg-pamaskomu-blue {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+  }
+
   .group:hover .lg\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -105712,54 +105079,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .group:hover .lg\:group-hover\:bg-yellow-50 {
+  .group:hover .lg\:group-hover\:bg-yellow {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .group:hover .lg\:group-hover\:bg-yellow-100 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .group:hover .lg\:group-hover\:bg-yellow-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .group:hover .lg\:group-hover\:bg-yellow-300 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .group:hover .lg\:group-hover\:bg-yellow-400 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .group:hover .lg\:group-hover\:bg-yellow-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .group:hover .lg\:group-hover\:bg-yellow-600 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .group:hover .lg\:group-hover\:bg-yellow-700 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .group:hover .lg\:group-hover\:bg-yellow-800 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .group:hover .lg\:group-hover\:bg-yellow-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .group:hover .lg\:group-hover\:bg-green-50 {
@@ -105922,6 +105244,11 @@ h1, heading, button {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .group:hover .lg\:group-hover\:bg-pamaskomu-blue {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+  }
+
   .lg\:focus-within\:bg-transparent:focus-within {
     background-color: transparent;
   }
@@ -106040,54 +105367,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .lg\:focus-within\:bg-yellow-50:focus-within {
+  .lg\:focus-within\:bg-yellow:focus-within {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .lg\:focus-within\:bg-yellow-100:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .lg\:focus-within\:bg-yellow-200:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .lg\:focus-within\:bg-yellow-300:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .lg\:focus-within\:bg-yellow-400:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .lg\:focus-within\:bg-yellow-500:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .lg\:focus-within\:bg-yellow-600:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .lg\:focus-within\:bg-yellow-700:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .lg\:focus-within\:bg-yellow-800:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .lg\:focus-within\:bg-yellow-900:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .lg\:focus-within\:bg-green-50:focus-within {
@@ -106250,6 +105532,11 @@ h1, heading, button {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .lg\:focus-within\:bg-pamaskomu-blue:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+  }
+
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -106368,54 +105655,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .lg\:hover\:bg-yellow-50:hover {
+  .lg\:hover\:bg-yellow:hover {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .lg\:hover\:bg-yellow-100:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .lg\:hover\:bg-yellow-200:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .lg\:hover\:bg-yellow-300:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .lg\:hover\:bg-yellow-400:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .lg\:hover\:bg-yellow-500:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .lg\:hover\:bg-yellow-600:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .lg\:hover\:bg-yellow-700:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .lg\:hover\:bg-yellow-800:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .lg\:hover\:bg-yellow-900:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .lg\:hover\:bg-green-50:hover {
@@ -106578,6 +105820,11 @@ h1, heading, button {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .lg\:hover\:bg-pamaskomu-blue:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+  }
+
   .lg\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -106696,54 +105943,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .lg\:focus\:bg-yellow-50:focus {
+  .lg\:focus\:bg-yellow:focus {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .lg\:focus\:bg-yellow-100:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .lg\:focus\:bg-yellow-200:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .lg\:focus\:bg-yellow-300:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .lg\:focus\:bg-yellow-400:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .lg\:focus\:bg-yellow-500:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .lg\:focus\:bg-yellow-600:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .lg\:focus\:bg-yellow-700:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .lg\:focus\:bg-yellow-800:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .lg\:focus\:bg-yellow-900:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .lg\:focus\:bg-green-50:focus {
@@ -106904,6 +106106,11 @@ h1, heading, button {
   .lg\:focus\:bg-pink-900:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-pamaskomu-blue:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
   }
 
   .lg\:bg-opacity-0 {
@@ -135236,54 +134443,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .xl\:bg-yellow-50 {
+  .xl\:bg-yellow {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .xl\:bg-yellow-100 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .xl\:bg-yellow-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .xl\:bg-yellow-300 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .xl\:bg-yellow-400 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .xl\:bg-yellow-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .xl\:bg-yellow-600 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .xl\:bg-yellow-700 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .xl\:bg-yellow-800 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .xl\:bg-yellow-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .xl\:bg-green-50 {
@@ -135446,6 +134608,11 @@ h1, heading, button {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .xl\:bg-pamaskomu-blue {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+  }
+
   .group:hover .xl\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -135564,54 +134731,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .group:hover .xl\:group-hover\:bg-yellow-50 {
+  .group:hover .xl\:group-hover\:bg-yellow {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .group:hover .xl\:group-hover\:bg-yellow-100 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .group:hover .xl\:group-hover\:bg-yellow-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .group:hover .xl\:group-hover\:bg-yellow-300 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .group:hover .xl\:group-hover\:bg-yellow-400 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .group:hover .xl\:group-hover\:bg-yellow-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .group:hover .xl\:group-hover\:bg-yellow-600 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .group:hover .xl\:group-hover\:bg-yellow-700 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .group:hover .xl\:group-hover\:bg-yellow-800 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .group:hover .xl\:group-hover\:bg-yellow-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .group:hover .xl\:group-hover\:bg-green-50 {
@@ -135774,6 +134896,11 @@ h1, heading, button {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .group:hover .xl\:group-hover\:bg-pamaskomu-blue {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+  }
+
   .xl\:focus-within\:bg-transparent:focus-within {
     background-color: transparent;
   }
@@ -135892,54 +135019,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .xl\:focus-within\:bg-yellow-50:focus-within {
+  .xl\:focus-within\:bg-yellow:focus-within {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .xl\:focus-within\:bg-yellow-100:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .xl\:focus-within\:bg-yellow-200:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .xl\:focus-within\:bg-yellow-300:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .xl\:focus-within\:bg-yellow-400:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .xl\:focus-within\:bg-yellow-500:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .xl\:focus-within\:bg-yellow-600:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .xl\:focus-within\:bg-yellow-700:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .xl\:focus-within\:bg-yellow-800:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .xl\:focus-within\:bg-yellow-900:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .xl\:focus-within\:bg-green-50:focus-within {
@@ -136102,6 +135184,11 @@ h1, heading, button {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .xl\:focus-within\:bg-pamaskomu-blue:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+  }
+
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -136220,54 +135307,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .xl\:hover\:bg-yellow-50:hover {
+  .xl\:hover\:bg-yellow:hover {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .xl\:hover\:bg-yellow-100:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .xl\:hover\:bg-yellow-200:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .xl\:hover\:bg-yellow-300:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .xl\:hover\:bg-yellow-400:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .xl\:hover\:bg-yellow-500:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .xl\:hover\:bg-yellow-600:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .xl\:hover\:bg-yellow-700:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .xl\:hover\:bg-yellow-800:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .xl\:hover\:bg-yellow-900:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .xl\:hover\:bg-green-50:hover {
@@ -136430,6 +135472,11 @@ h1, heading, button {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .xl\:hover\:bg-pamaskomu-blue:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+  }
+
   .xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -136548,54 +135595,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .xl\:focus\:bg-yellow-50:focus {
+  .xl\:focus\:bg-yellow:focus {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .xl\:focus\:bg-yellow-100:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .xl\:focus\:bg-yellow-200:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .xl\:focus\:bg-yellow-300:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .xl\:focus\:bg-yellow-400:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .xl\:focus\:bg-yellow-500:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .xl\:focus\:bg-yellow-600:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .xl\:focus\:bg-yellow-700:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .xl\:focus\:bg-yellow-800:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .xl\:focus\:bg-yellow-900:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .xl\:focus\:bg-green-50:focus {
@@ -136756,6 +135758,11 @@ h1, heading, button {
   .xl\:focus\:bg-pink-900:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-pamaskomu-blue:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
   }
 
   .xl\:bg-opacity-0 {
@@ -165088,54 +164095,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .\32xl\:bg-yellow-50 {
+  .\32xl\:bg-yellow {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:bg-yellow-100 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:bg-yellow-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:bg-yellow-300 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:bg-yellow-400 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:bg-yellow-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:bg-yellow-600 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:bg-yellow-700 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:bg-yellow-800 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:bg-yellow-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .\32xl\:bg-green-50 {
@@ -165298,6 +164260,11 @@ h1, heading, button {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .\32xl\:bg-pamaskomu-blue {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+  }
+
   .group:hover .\32xl\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -165416,54 +164383,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .group:hover .\32xl\:group-hover\:bg-yellow-50 {
+  .group:hover .\32xl\:group-hover\:bg-yellow {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .group:hover .\32xl\:group-hover\:bg-yellow-100 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .group:hover .\32xl\:group-hover\:bg-yellow-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .group:hover .\32xl\:group-hover\:bg-yellow-300 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .group:hover .\32xl\:group-hover\:bg-yellow-400 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .group:hover .\32xl\:group-hover\:bg-yellow-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .group:hover .\32xl\:group-hover\:bg-yellow-600 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .group:hover .\32xl\:group-hover\:bg-yellow-700 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .group:hover .\32xl\:group-hover\:bg-yellow-800 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .group:hover .\32xl\:group-hover\:bg-yellow-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .group:hover .\32xl\:group-hover\:bg-green-50 {
@@ -165626,6 +164548,11 @@ h1, heading, button {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .group:hover .\32xl\:group-hover\:bg-pamaskomu-blue {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+  }
+
   .\32xl\:focus-within\:bg-transparent:focus-within {
     background-color: transparent;
   }
@@ -165744,54 +164671,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .\32xl\:focus-within\:bg-yellow-50:focus-within {
+  .\32xl\:focus-within\:bg-yellow:focus-within {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:focus-within\:bg-yellow-100:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:focus-within\:bg-yellow-200:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:focus-within\:bg-yellow-300:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:focus-within\:bg-yellow-400:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:focus-within\:bg-yellow-500:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:focus-within\:bg-yellow-600:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:focus-within\:bg-yellow-700:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:focus-within\:bg-yellow-800:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:focus-within\:bg-yellow-900:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .\32xl\:focus-within\:bg-green-50:focus-within {
@@ -165954,6 +164836,11 @@ h1, heading, button {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .\32xl\:focus-within\:bg-pamaskomu-blue:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+  }
+
   .\32xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -166072,54 +164959,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .\32xl\:hover\:bg-yellow-50:hover {
+  .\32xl\:hover\:bg-yellow:hover {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:hover\:bg-yellow-100:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:hover\:bg-yellow-200:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:hover\:bg-yellow-300:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:hover\:bg-yellow-400:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:hover\:bg-yellow-500:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:hover\:bg-yellow-600:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:hover\:bg-yellow-700:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:hover\:bg-yellow-800:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:hover\:bg-yellow-900:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .\32xl\:hover\:bg-green-50:hover {
@@ -166282,6 +165124,11 @@ h1, heading, button {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .\32xl\:hover\:bg-pamaskomu-blue:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
+  }
+
   .\32xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -166400,54 +165247,9 @@ h1, heading, button {
     background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
   }
 
-  .\32xl\:focus\:bg-yellow-50:focus {
+  .\32xl\:focus\:bg-yellow:focus {
     --tw-bg-opacity: 1;
-    background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:focus\:bg-yellow-100:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:focus\:bg-yellow-200:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:focus\:bg-yellow-300:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:focus\:bg-yellow-400:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:focus\:bg-yellow-500:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:focus\:bg-yellow-600:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:focus\:bg-yellow-700:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(180, 83, 9, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:focus\:bg-yellow-800:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
-  }
-
-  .\32xl\:focus\:bg-yellow-900:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(120, 53, 15, var(--tw-bg-opacity));
+    background-color: rgba(252, 207, 109, var(--tw-bg-opacity));
   }
 
   .\32xl\:focus\:bg-green-50:focus {
@@ -166608,6 +165410,11 @@ h1, heading, button {
   .\32xl\:focus\:bg-pink-900:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-pamaskomu-blue:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
   }
 
   .\32xl\:bg-opacity-0 {
@@ -180136,4 +178943,3 @@ h1, heading, button {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-

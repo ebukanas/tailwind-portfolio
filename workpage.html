@@ -27,8 +27,6 @@
             <a href="index.html" class="bg-logo-black w-full h-9 bg-no-repeat bg-contain z-50
             md:w-[160px] md:h-12 md:mt-10"></a>
 
-            <!-- add hidden class to menu-->
-
             <!-- Menu links here -->
             <div id="menu" class="hidden fixed top-0 right-0">
             <ul class="top-0 right-0 w-full h-screen py-16 z-50 font-bold flex flex-col justify-center bg-hero2 bg-left bg-550 bg-blue bg-blend-luminosity
@@ -38,18 +36,19 @@
                     <a href="javascript:void(0)" class="text-right text-4xl mr-2 self-end -mt-2"
                         onclick="toggleMenu()">&times;</a>
                 </li>
-            <div class="px-8">
+                <!-- -mt-16 to compensate for the heading height-->
+            <div class="px-8 -mt-16">
                 <h1 class="text-2xl my-3 text-center font-futura">NAVIGUOJAM!</h1>
-                <li class="mt-4 border-4 border-black flex justify-center bg-white"><a class="text-md" href="#">APIE MANE</a></li>
-                <li class="mt-4 border-4 border-black flex justify-center bg-white"><a class="text-md" href="#">MANO DARBAI</a></li>
+                <li class="mt-4 py-2 border-4 border-black flex justify-center bg-white"><a class="text-md" href="#">APIE MANE</a></li>
+                <li class="mt-4 py-2 border-4 border-black flex justify-center bg-white"><a class="text-md" href="#">MANO DARBAI</a></li>
 
                 <h1 class="text-2xl my-3 text-center pt-4">SUSISIEKIAM!</h1>
                 <ul class="sm:hidden">
-                    <li class="h-9 border-4 border-black flex justify-center bg-white">
+                    <li class="py-2 border-4 border-black flex justify-center bg-white">
                         <img src="/images/email.png" class="block ml-1 mt-0.5 h-6">
                         <span class="mt-px mx-3">augustinas@augis.lt</span>
                     </li>
-                    <li class="h-9 border-4 border-black mt-4 flex justify-center bg-white">
+                    <li class="py-2 border-4 border-black mt-4 flex justify-center bg-white">
                         <img src="/images/phone-call.png" class="block ml-0.5 mt-px h-6">
                         <span class="mt-px mx-3">+370 678 64 334</span>
                     </li>

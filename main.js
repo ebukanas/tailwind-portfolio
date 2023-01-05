@@ -9,14 +9,8 @@ function toggleMenu() {
 const header = document.querySelector('[data-header]')
 const sections = [...document.querySelectorAll('[data-section]')]
 const logo = document.querySelector('.logo')
-// const email = document.querySelectorAll('.email-logo')
-// const phone = document.querySelectorAll('.phone-logo')
-// const workHide = document.querySelector('.whitespace')
-// const hamburgerMenu = document.querySelectorAll('.line')
 const menuToggle = document.querySelector('.menuToggle')
 const workShowcase2 = document.getElementById('work2') 
-
-
 
 
 
@@ -53,27 +47,6 @@ const updateColors = (target) => {
     header.setAttribute('data-header', theme)
 	logo.setAttribute('data-logo', theme)
 	menuToggle.setAttribute('data-menu', theme)
-
-
-
-    // workHide.setAttribute('data-hide', theme)
-
-
-	// mobile_nav_menu_toggle.forEach((obj) => {
-	// 	obj.setAttribute('data-mobile_menu_lines', theme);
-	// })
-
-	// email.forEach((obj) => {
-	// 	obj.setAttribute('data-email', theme);
-	// })
-
-	// phone.forEach((obj) => {
-	// 	obj.setAttribute('data-phone', theme);
-	// })
-
-	// hamburgerMenu.forEach((obj) => {
-	// 	obj.setAttribute('data-nav', theme);
-	// })
 	
   console.log('background color is ' + theme);
 }

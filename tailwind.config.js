@@ -31,6 +31,8 @@ module.exports = {
       backgroundColor: {
         'purple': '#392c42',
         'blue': '#0058ff',
+        'yellow' : '#fccf6d',
+        'pamaskomu-blue' : '#b0d1e4',
       }
     },
   },
