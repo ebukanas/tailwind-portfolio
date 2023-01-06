@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  content: ["./**/*.{html}"],
+  mode: 'jit',
+  purge: ["./**/*.html"],
+  content: ["./**/*.html"],
   theme: {
     fontFamily: {
       'futura': ['futura', 'bold'],
@@ -27,12 +29,14 @@ module.exports = {
         '550': '550px',
         '350': '350px',
         '700': '700px',
+        '250': '250px',
       },
       backgroundColor: {
         'purple': '#392c42',
         'blue': '#0058ff',
         'yellow' : '#fccf6d',
         'pamaskomu-blue' : '#b0d1e4',
+        'gray' : '#767676',
       }
     },
   },

@@ -10,27 +10,44 @@
     <link rel="shortcut icon" href="#">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"> 
 
+        <!-- Link Swiper's CSS -->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
 </head>
 
 <body>
     <main>
-        <header class="w-full h-16 bg-white fixed z-50 flex justify-between">
-            <div class="container md:px-0 h-full mx-4 flex justify-between items-center">
-    
+        <header class="w-full h-16 md:h-20 bg-white fixed z-50 flex justify-between lg:h-[7rem]" data-header="bg-white">
+            <div class="md:px-0 h-full w-full mx-4 flex justify-between items-center">
                 <!-- Medium resolution upwards contact info -->
-                <ul class="hidden md:flex md:flex-col md:m-2 md:mt-12 md:w-[100px]">
-                    <li>phone</li>
-                    <li>email</li>
+                <ul class="hidden md:flex md:flex-col w-50 md:w-[200px]">
+                    <li class="py-2 flex">
+                        <div id="email" class="bg-[url('/images/email.png')] bg-contain w-5 h-5 mt-1"></div>
+                        <span class="mt-px mx-3">augustinas@augis.lt</span>
+                    </li>
+                    <li class="py-2 flex md:-mt-2">
+                        <div id="phone" class="bg-[url('/images/phone-call.png')] bg-contain w-5 h-5 mt-1"></div>
+                        <span class="mt-px mx-3">+370 678 64 334</span>
+                    </li>
                 </ul>
     
                 <!-- Logo Here -->
-                <a href="index.html" class="bg-logo-black w-full h-9 bg-no-repeat bg-contain z-50
-                md:w-[160px] md:h-12 md:mt-10"></a>
+                <a href="index.html" class="logo bg-logo-black h-9 w-[120px] bg-no-repeat bg-contain z-50
+                md:w-[180px] md:h-[54px]
+                lg:w-[270px] lg:h-[80px]" data-logo></a>
     
-                <!-- Menu links here -->
+                <!-- medium resolution and upwards navigation -->
+                <ul class="hidden md:flex md:w-[200px] md:flex-col md:text-right">
+                    <li class="py-2"><a class="text-md" href="#">APIE MANE</a></li>
+                    <li class=""><a class="text-md" href="#">MANO DARBAI</a></li>
+                </ul>
+    
+                <!-- mobile menu links here -->
                 <div id="menu" class="hidden fixed top-0 right-0">
-                <ul class="top-0 right-0 w-full h-screen py-16 z-50 font-bold flex flex-col justify-center bg-hero2 bg-left bg-550 bg-blue bg-blend-luminosity
-                    md:relative md:flex md:p-0 md:bg-transparent md:flex-row md:space-x-6 md:mt-4 md:w-[120px] md:text-right">
+                <ul class="top-0 right-0 w-full h-screen py-16 z-50 font-bold flex flex-col justify-center bg-hero2 bg-left-top bg-no-repeat bg-700 bg-blue bg-blend-luminosity
+                    md:relative md:flex md:p-0 md:bg-transparent md:flex-row md:space-x-6 md:mt-4 md:w-[120px] md:text-right text-black">
     
                     <li class="md:hidden fixed top-4 flex flex-col w-full justify-between px-4">
                         <a href="javascript:void(0)" class="text-right text-4xl mr-2 self-end -mt-2"
@@ -44,11 +61,11 @@
     
                     <h1 class="text-2xl my-3 text-center pt-4">SUSISIEKIAM!</h1>
                     <ul class="sm:hidden">
-                        <li class="py-2 border-4 border-black flex justify-center bg-white">
-                            <img src="/images/email.png" class="block ml-1 mt-0.5 h-6">
+                        <li id="email" class="py-2 border-4 border-black mt-4 flex justify-center bg-white">
+                            <img src="/images/email.png" class="block ml-0.5 mt-px h-6">
                             <span class="mt-px mx-3">augustinas@augis.lt</span>
                         </li>
-                        <li class="py-2 border-4 border-black mt-4 flex justify-center bg-white">
+                        <li id="phone" class="py-2 border-4 border-black mt-4 flex justify-center bg-white">
                             <img src="/images/phone-call.png" class="block ml-0.5 mt-px h-6">
                             <span class="mt-px mx-3">+370 678 64 334</span>
                         </li>
@@ -58,17 +75,40 @@
                 </ul>
             </div>
     
-    
                 <!-- This is used to open the menu on mobile devices -->
-                <div class="flex md:hidden items-center mr-2 z-96">
+                <div class="flex md:hidden items-center z-96">
                     <button class="menuToggle text-black text-4xl font-bold hover:opacity-100 duration-300 mb-3"
                         onclick="toggleMenu()">
                         &#9776;
                     </button>
                 </div>
-        </header>
+    </header>
+
+    <section class="hidden h-screen w-full bg-white md:flex justify-center align-center">
+        <div class="w-4/5 h-4/5 mt-[112px]">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="h-full w-full bg-kernagis3 bg-cover bg-no-repeat flex">
+                        <p class="w-1/3 pt-4 pl-6 text-left text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem eius minima nihil labore numquam soluta recusandae ducimus voluptatibus sapiente alias exercitationem aut pariatur quas ab eos nobis consequuntur, deleniti illo!</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="h-full w-full bg-kernagis2 bg-cover bg-no-repeat flex">
+                        <p class="w-full pt-4 pl-6 text-left text-gray-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem eius minima nihil labore numquam soluta recusandae ducimus voluptatibus sapiente alias exercitationem aut pariatur quas ab eos nobis consequuntur, deleniti illo!</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="h-full w-full bg-kernagis1 bg-cover bg-no-repeat"></div>
+                </div>
+                </div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+    </section>
+  
     
-    <section class="h-fit mx-3 relative pt-16">
+    <section class="h-fit mx-3 relative pt-16 md:hidden">
         <div class="relative">
             <img class="object-cover h-550" src="/images/galva10.jpg" alt=""> 
             <span class="text-gray-200 p-3 absolute top-0">Lorem ipsum sdolor, sit amet consectetur adipisicing elit. Ducimus voluptas accusantium</span>
@@ -85,7 +125,28 @@
     </section>
 
     </main>
+
     <script src="main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "auto",
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        scrollbar: {
+        el: '.swiper-scrollbar',
+        enabled:true,
+        horizontalClass: 'swiper-scrollbar-horizontal',
+        },
+      });
+    </script>
+
 </body>
 </html>
 

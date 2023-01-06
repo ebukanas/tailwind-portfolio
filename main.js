@@ -1,4 +1,4 @@
-var menu = document.getElementById('menu');
+const menu = document.getElementById('menu');
 
 function toggleMenu() {
     menu.classList.toggle('hidden');
@@ -11,7 +11,8 @@ const sections = [...document.querySelectorAll('[data-section]')]
 const logo = document.querySelector('.logo')
 const menuToggle = document.querySelector('.menuToggle')
 const workShowcase2 = document.getElementById('work2') 
-
+const phone = document.getElementById('phone') 
+const email = document.getElementById('email') 
 
 
 let prevYPosition = 0
@@ -43,11 +44,13 @@ const getTargetSection = (entry) => {
 
 const updateColors = (target) => {
 	const theme = target.dataset.section
-	header.setAttribute('data-theme', theme)
     header.setAttribute('data-header', theme)
 	logo.setAttribute('data-logo', theme)
 	menuToggle.setAttribute('data-menu', theme)
-	
+	menu.setAttribute('data-navlinks', theme)
+	email.setAttribute('data-email', theme)
+	phone.setAttribute('data-phone', theme)
+
   console.log('background color is ' + theme);
 }
 
@@ -87,8 +90,6 @@ const observer = new IntersectionObserver(onIntersect, options)
 sections.forEach((section) => {
 	observer.observe(section)
 })
-
-
 
 
 

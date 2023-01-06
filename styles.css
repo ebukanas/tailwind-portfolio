@@ -33,27 +33,95 @@
     background-size: cover;
 }
 
+[data-email="bg-purple"] {
+    background: url(/images/email_white.png) no-repeat;
+    background-size: cover;
+}
+
+[data-email="bg-white"], [data-email="bg-gray"] {
+    background: url(/images/email.png) no-repeat;
+    background-size: cover;
+}
+
+[data-phone="bg-purple"] {
+    background: url(/images/phone-call_white.png) no-repeat;
+    background-size: cover;
+}
+
+[data-phone="bg-white"], [data-phone="bg-gray"] {
+    background: url(/images/phone-call.png) no-repeat;
+    background-size: cover;
+}
+
 [data-menu="bg-white"], [data-menu="bg-gray"] {
     color: black;
 }
 
+[data-navlinks="bg-white"] {
+    color:black;
+}
+
 [data-header="bg-white"] {
+    color:black;
     background-color: white;
     --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
     --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+[data-header="bg-purple"] {
+    color:white;
+}
+
 [data-header="bg-gray"] {
-    background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+    background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
     --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
     --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-[data-header="bg-blue"] {
-    background-color: rgba(176, 209, 228, var(--tw-bg-opacity));
-    --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
+
+
+.swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .swiper-slide {
+        width: 80%;
+      }
+
+      .swiper-slide:nth-child(2n) {
+        width: 60%;
+      }
+
+      .swiper-slide:nth-child(3n) {
+        width: 40%;
+      }

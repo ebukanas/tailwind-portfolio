@@ -12,39 +12,79 @@
 
 </head>
 
+<!-- npx tailwindcss-cli -i styles.css -o ./css/style.css -->
+
 <body class="bg-purple">
     <main>
-    <header class="w-full h-16 bg-transparent fixed z-50 flex md:py-8 lg:p-10" data-header>
-        <div class="md:px-0 lg:w-full h-full mx-4 flex justify-between items-center">
-            
-            <!-- Logo Here -->
-            <div class="logo w-28 h-8 bg-no-repeat object-cover
-            md:w-40 md:h-12"></div>
-
-            <!-- Menu links here -->
-            <ul id="menu" class="hidden fixed top-0 right-0 px-10 py-16 bg-gray-800 z-50
-                md:relative md:flex md:p-0 md:bg-transparent md:flex-row md:space-x-6">
-
-                <li class="md:hidden z-90 fixed top-4 right-6">
-                    <a href="javascript:void(0)" class="text-right text-white text-4xl"
-                        onclick="toggleMenu()">&times;</a>
-                </li>
-                <li><a class="text-white" href="#">MANO DARBAI</a></li>
-                <li><a class="text-white" href="#">APIE MANE</a></li>
-            </ul>
-
-            <!-- This is used to open the menu on mobile devices -->
-            <div class="flex items-center md:hidden">
-                <button class="menuToggle text-white text-4xl font-bold hover:opacity-100 duration-300 mb-3"
-                    onclick="toggleMenu()">
-                    &#9776;
-                </button>
+        <header class="w-full h-16 md:h-20 bg-transparent fixed z-50 flex justify-between lg:h-[7rem]" data-header>
+            <div class="md:px-0 h-full w-full mx-4 flex justify-between items-center">
+    
+                <!-- Medium resolution upwards contact info -->
+                <ul class="hidden md:flex md:flex-col w-50 md:w-[200px]">
+                    <li class="py-2 flex">
+                        <div id="email" class=" bg-contain w-5 h-5 mt-1" data-email></div>
+                        <span class="mt-px mx-3">augustinas@augis.lt</span>
+                    </li>
+                    <li class="py-2 flex md:-mt-2">
+                        <div id="phone" class="bg-[url('/images/phone-call_white.png')] bg-contain w-5 h-5 mt-1" data-phone></div>
+                        <span class="mt-px mx-3">+370 678 64 334</span>
+                    </li>
+                </ul>
+    
+                <!-- Logo Here -->
+                <a href="index.html" class="logo bg-logo-black h-9 w-[120px] bg-no-repeat bg-contain z-50
+                md:w-[180px] md:h-[54px]
+                lg:w-[270px] lg:h-[80px]" data-logo></a>
+    
+                <!-- medium resolution and upwards navigation -->
+                <ul class="hidden md:flex md:w-[200px] md:flex-col md:text-right">
+                    <li class="py-2"><a class="text-md" href="#">APIE MANE</a></li>
+                    <li class=""><a class="text-md" href="#">MANO DARBAI</a></li>
+                </ul>
+    
+                <!-- mobile menu links here -->
+                <div id="menu" class="hidden fixed top-0 right-0">
+                <ul class="top-0 right-0 w-full h-screen py-16 z-50 font-bold flex flex-col justify-center bg-hero2 bg-left-top bg-no-repeat bg-700 bg-blue bg-blend-luminosity
+                    md:relative md:flex md:p-0 md:bg-transparent md:flex-row md:space-x-6 md:mt-4 md:w-[120px] md:text-right text-black">
+    
+                    <li class="md:hidden fixed top-4 flex flex-col w-full justify-between px-4">
+                        <a href="javascript:void(0)" class="text-right text-4xl mr-2 self-end -mt-2"
+                            onclick="toggleMenu()">&times;</a>
+                    </li>
+                    <!-- -mt-16 to compensate for the heading height-->
+                <div class="px-8 -mt-16">
+                    <h1 class="text-2xl my-3 text-center font-futura">NAVIGUOJAM!</h1>
+                    <li class="mt-4 py-2 border-4 border-black flex justify-center bg-white"><a class="text-md" href="#">APIE MANE</a></li>
+                    <li class="mt-4 py-2 border-4 border-black flex justify-center bg-white"><a class="text-md" href="#">MANO DARBAI</a></li>
+    
+                    <h1 class="text-2xl my-3 text-center pt-4">SUSISIEKIAM!</h1>
+                    <ul class="sm:hidden">
+                        <li id="email" class="py-2 border-4 border-black mt-4 flex justify-center bg-white">
+                            <img src="/images/email.png" class="block ml-0.5 mt-px h-6">
+                            <span class="mt-px mx-3">augustinas@augis.lt</span>
+                        </li>
+                        <li id="phone" class="py-2 border-4 border-black mt-4 flex justify-center bg-white">
+                            <img src="/images/phone-call.png" class="block ml-0.5 mt-px h-6">
+                            <span class="mt-px mx-3">+370 678 64 334</span>
+                        </li>
+                    </ul>
+                </div>
+                    
+                </ul>
             </div>
+    
+                <!-- This is used to open the menu on mobile devices -->
+                <div class="flex md:hidden items-center z-96">
+                    <button class="menuToggle text-white text-4xl font-bold hover:opacity-100 duration-300 mb-3"
+                        onclick="toggleMenu()">
+                        &#9776;
+                    </button>
+                </div>
     </header>
-
-    <section id="hero" class="relative bg-hero bg-cover h-screen mix-blend-hard-light flex flex-col justify-evenly 
-    md:items-center md:bg-contain md:bg-no-repeat md:bg-left" data-section="bg-purple">
-        <img class="md:w-2/3 lg:w-1/3" src="/images/jumbo-text3.png" alt="">
+    
+    <section id="hero" class="relative bg-hero bg-cover h-screen mix-blend-hard-light flex flex-col justify-evenly
+    sm:items-center md:bg-contain md:bg-no-repeat md:bg-left" data-section="bg-purple">
+        <img class="sm:w-2/3 md:w-2/3 lg:w-2/5 2xl:w-[30%]" src="/images/jumbo-text3.png" alt="">
         <a href="workpage.html" 
            class="w-2/3 mb-4 h-20 absolute bottom-5 self-center
            md:w-1/2 md:flex md:justify-center">
@@ -54,7 +94,7 @@
         </a>
     </section>
 
-    <section id="work1" class="h-screen flex flex-col justify-center bg-gray-100" data-section="white">
+    <section class="h-screen flex flex-col justify-center bg-white" data-section="bg-white">
         <heading class="h-8 w-screen text-center text-2xl lg:text-4xl lg:mb-8 mb-4">VIZŪLKĖS</heading>
             <div class="work-display h-2/3 lg:h-1/2 w-auto grid grid-rows-2 grid-cols-2 gap-4 mx-4
             md:mx-20 lg:grid-rows-1 lg:grid-cols-4">
@@ -79,27 +119,6 @@
             </div>
         </div>
     </section>
-
-
-    <!-- <section id="work3" class="bg-white h-screen bg-light-gray flex place-content-center items-center flex-col pl-10 pr-10" data-section="bg-white">
-        <h1 class="self-start font-FuturaBold text-2xl xl:text-5xl font-bold">KAŽKOKIA STATULA</h1>
-        <div class="work-img w-full h-1/2 border-black border-4 bg-skulptura bg-cover bg-center"></div>
-        <div class="work-details">
-            <p class="work-desc text-left leading-4 my-3 font-Inter">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem soluta consequuntur.</p>
-            <button class="border-black border-4 py-2 w-full font-bold">DAUGIAU</button>
-        </div>
-    </section>
-
-    <section id="work4" class="h-screen bg-gray-100 flex place-content-center items-center flex-col pl-10 pr-10" data-section="bg-gray">
-        <h1 class="self-start font-FuturaBold text-2xl xl:text-5xl font-bold">PAMASKOMU</h1>
-        <div class="work-img w-full h-1/2 border-black border-4 bg-silainiai bg-cover bg-center"></div>
-        <div class="work-details">
-            <p class="work-desc text-left leading-4 my-3 font-Inter">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem soluta consequuntur.</p>
-            <button class="border-black border-4 py-2 w-full font-bold">DAUGIAU</button>
-        </div>
-    </section> -->
-
-
 
 
     </main>

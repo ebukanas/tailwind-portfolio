@@ -14,95 +14,102 @@
 
 <body>
     <main>
-    <header class="w-full h-16 bg-transparent fixed z-50 flex justify-between">
-        <div class="md:px-0 h-full w-full mx-4 flex justify-between items-center">
-
-            <!-- Medium resolution upwards contact info -->
-            <ul class="hidden md:flex md:flex-col md:mt-10 w-50">
-                <li class="py-2 flex bg-white">
-                    <img src="/images/email.png" class="block ml-1 mt-0.5 h-6">
-                    <span class="mt-px mx-3">augustinas@augis.lt</span>
-                </li>
-                <li class="py-2 flex bg-white md:-mt-2">
-                    <img src="/images/phone-call.png" class="block ml-0.5 mt-px h-6">
-                    <span class="mt-px mx-3">+370 678 64 334</span>
-                </li>
-            </ul>
-
-            <!-- Logo Here -->
-            <a href="index.html" class="bg-logo-black w-40 h-9 bg-no-repeat bg-contain z-50
-            md:h-12 md:mt-10 md:w-60"></a>
-
-            <!-- medium resolution and upwards navigation -->
-            <ul class="hidden md:flex md:w-[100px] md:flex-col md:mt-10">
-                <li class="py-2"><a class="text-md" href="#">APIE MANE</a></li>
-                <li class=""><a class="text-md" href="#">MANO DARBAI</a></li>
-            </ul>
-
-            <!-- mobile menu links here -->
-            <div id="menu" class="hidden fixed top-0 right-0">
-            <ul class="top-0 right-0 w-full h-screen py-16 z-50 font-bold flex flex-col justify-center bg-hero2 bg-left-top bg-no-repeat bg-700 bg-blue bg-blend-luminosity
-                md:relative md:flex md:p-0 md:bg-transparent md:flex-row md:space-x-6 md:mt-4 md:w-[120px] md:text-right">
-
-                <li class="md:hidden fixed top-4 flex flex-col w-full justify-between px-4">
-                    <a href="javascript:void(0)" class="text-right text-4xl mr-2 self-end -mt-2"
-                        onclick="toggleMenu()">&times;</a>
-                </li>
-                <!-- -mt-16 to compensate for the heading height-->
-            <div class="px-8 -mt-16">
-                <h1 class="text-2xl my-3 text-center font-futura">NAVIGUOJAM!</h1>
-                <li class="mt-4 py-2 border-4 border-black flex justify-center bg-white"><a class="text-md" href="#">APIE MANE</a></li>
-                <li class="mt-4 py-2 border-4 border-black flex justify-center bg-white"><a class="text-md" href="#">MANO DARBAI</a></li>
-
-                <h1 class="text-2xl my-3 text-center pt-4">SUSISIEKIAM!</h1>
-                <ul class="sm:hidden">
-                    <li class="py-2 border-4 border-black flex justify-center bg-white">
-                        <img src="/images/email.png" class="block ml-1 mt-0.5 h-6">
+        <header class="w-full h-16 md:h-20 bg-transparent fixed z-50 flex justify-between lg:h-[7rem]" data-header>
+            <div class="md:px-0 h-full w-full mx-4 flex justify-between items-center">
+    
+                <!-- Medium resolution upwards contact info -->
+                <ul class="hidden md:flex md:flex-col w-50 md:w-[200px]">
+                    <li class="py-2 flex">
+                        <div id="email" class=" bg-contain w-5 h-5 mt-1" data-email></div>
                         <span class="mt-px mx-3">augustinas@augis.lt</span>
                     </li>
-                    <li class="py-2 border-4 border-black mt-4 flex justify-center bg-white">
-                        <img src="/images/phone-call.png" class="block ml-0.5 mt-px h-6">
+                    <li class="py-2 flex md:-mt-2">
+                        <div id="phone" class="bg-[url('/images/phone-call_white.png')] bg-contain w-5 h-5 mt-1" data-phone></div>
                         <span class="mt-px mx-3">+370 678 64 334</span>
                     </li>
                 </ul>
+    
+                <!-- Logo Here -->
+                <a href="index.html" class="logo bg-logo-black h-9 w-[120px] bg-no-repeat bg-contain z-50
+                md:w-[180px] md:h-[54px]
+                lg:w-[270px] lg:h-[80px]" data-logo></a>
+    
+                <!-- medium resolution and upwards navigation -->
+                <ul class="hidden md:flex md:w-[200px] md:flex-col md:text-right">
+                    <li class="py-2"><a class="text-md" href="#">APIE MANE</a></li>
+                    <li class=""><a class="text-md" href="#">MANO DARBAI</a></li>
+                </ul>
+    
+                <!-- mobile menu links here -->
+                <div id="menu" class="hidden fixed top-0 right-0">
+                <ul class="top-0 right-0 w-full h-screen py-16 z-50 font-bold flex flex-col justify-center bg-hero2 bg-left-top bg-no-repeat bg-700 bg-blue bg-blend-luminosity
+                    md:relative md:flex md:p-0 md:bg-transparent md:flex-row md:space-x-6 md:mt-4 md:w-[120px] md:text-right text-black">
+    
+                    <li class="md:hidden fixed top-4 flex flex-col w-full justify-between px-4">
+                        <a href="javascript:void(0)" class="text-right text-4xl mr-2 self-end -mt-2"
+                            onclick="toggleMenu()">&times;</a>
+                    </li>
+                    <!-- -mt-16 to compensate for the heading height-->
+                <div class="px-8 -mt-16">
+                    <h1 class="text-2xl my-3 text-center font-futura">NAVIGUOJAM!</h1>
+                    <li class="mt-4 py-2 border-4 border-black flex justify-center bg-white"><a class="text-md" href="#">APIE MANE</a></li>
+                    <li class="mt-4 py-2 border-4 border-black flex justify-center bg-white"><a class="text-md" href="#">MANO DARBAI</a></li>
+    
+                    <h1 class="text-2xl my-3 text-center pt-4">SUSISIEKIAM!</h1>
+                    <ul class="sm:hidden">
+                        <li id="email" class="py-2 border-4 border-black mt-4 flex justify-center bg-white">
+                            <img src="/images/email.png" class="block ml-0.5 mt-px h-6">
+                            <span class="mt-px mx-3">augustinas@augis.lt</span>
+                        </li>
+                        <li id="phone" class="py-2 border-4 border-black mt-4 flex justify-center bg-white">
+                            <img src="/images/phone-call.png" class="block ml-0.5 mt-px h-6">
+                            <span class="mt-px mx-3">+370 678 64 334</span>
+                        </li>
+                    </ul>
+                </div>
+                    
+                </ul>
             </div>
-                
-            </ul>
-        </div>
-
-            <!-- This is used to open the menu on mobile devices -->
-            <div class="flex md:hidden items-center z-96">
-                <button class="menuToggle text-black text-4xl font-bold hover:opacity-100 duration-300 mb-3"
-                    onclick="toggleMenu()">
-                    &#9776;
-                </button>
-            </div>
+    
+                <!-- This is used to open the menu on mobile devices -->
+                <div class="flex md:hidden items-center z-96">
+                    <button class="menuToggle text-white text-4xl font-bold hover:opacity-100 duration-300 mb-3"
+                        onclick="toggleMenu()">
+                        &#9776;
+                    </button>
+                </div>
     </header>
 
 
-    <div class="lg:w-screen lg:flex lg:justify-center bg-white">
-        <section id="work1" class="h-screen bg-white flex place-content-center items-center flex-col px-10 lg:w-2/3" data-section="bg-white">
+    <section class="lg:w-screen lg:flex lg:justify-center bg-white h-screen lg:items-center">
+        <div id="work1" class="h-screen flex place-content-center items-center flex-col px-10 
+        lg:w-2/3 lg:h-2/3 lg:mt-[112px]" data-section="bg-white">
             <h1 class="self-start text-2xl xl:text-5xl font-bold md:text-4xl md:mb-2">ČEBURĖKŲ LEGENDA</h1>
             <div class="work-img w-full h-1/2 lg:h-2/3 border-black border-4 bg-ceburekas bg-cover bg-center"></div>
             <div class="work-details 
             md:flex md:flex-row md:items-between md:w-full md:justify-between md:mt-4">
                 <p class="work-desc text-left leading-4 my-3 font-Inter text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem soluta consequuntur.</p>
-                <button class="border-black border-4 py-2 w-full font-bold
+                <button class="border-black border-4 py-2 w-full font-bold hover:bg-yellow duration-100
                 md:w-60">DAUGIAU</button>
             </div>
-        </section>
-    
-    </div>
-        <section id="work2" class="h-screen bg-gray-100 flex place-content-center items-center flex-col px-10" data-section="bg-gray">
-            <h1 class="self-start text-2xl xl:text-5xl font-bold md:text-4xl md:mb-2">VYTAUTAS KERNAGIS</h1>
-            <div class="work-img w-full h-1/2 border-black border-4 bg-kernagis3 bg-cover bg-center"></div>
+        </div>
+    </section>
+
+
+    <section class="lg:w-screen lg:flex lg:justify-center bg-[#F3F4F6] h-screen lg:items-center" data-section="bg-gray">
+        <div id="work1" class="h-screen flex place-content-center items-center flex-col px-10 
+        lg:w-2/3 lg:h-2/3 lg:mt-[112px]" data-section="bg-white">
+            <h1 class="self-start text-2xl xl:text-5xl font-bold md:text-4xl md:mb-2">KERNAGIO GALVA</h1>
+            <div class="work-img w-full h-1/2 lg:h-2/3 border-black border-4 bg-kernagis3 bg-cover bg-center"></div>
             <div class="work-details 
-            md:flex md:flex-col md:items-center">
+            md:flex md:flex-row md:items-between md:w-full md:justify-between md:mt-4">
                 <p class="work-desc text-left leading-4 my-3 font-Inter text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem soluta consequuntur.</p>
-                <button class="border-black border-4 py-2 w-full font-bold
-                md:w-1/2">DAUGIAU</button>
+                <button onclick="location.href='work-kernagis.html'"
+                class="border-black border-4 py-2 w-full font-bold hover:bg-gray hover:text-gray-200 duration-100
+                md:w-60">DAUGIAU</button>
             </div>
-        </section>
+        </div>
+    </section>
 
 
     </main>
