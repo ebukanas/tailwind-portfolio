@@ -15,21 +15,33 @@
 <body>
     <main>
     <header class="w-full h-16 bg-transparent fixed z-50 flex justify-between">
-        <div class="container md:px-0 h-full mx-4 flex justify-between items-center">
+        <div class="md:px-0 h-full w-full mx-4 flex justify-between items-center">
 
             <!-- Medium resolution upwards contact info -->
-            <ul class="hidden md:flex md:flex-col md:m-2 md:mt-12 md:w-[100px]">
-                <li>phone</li>
-                <li>email</li>
+            <ul class="hidden md:flex md:flex-col md:mt-10 w-50">
+                <li class="py-2 flex bg-white">
+                    <img src="/images/email.png" class="block ml-1 mt-0.5 h-6">
+                    <span class="mt-px mx-3">augustinas@augis.lt</span>
+                </li>
+                <li class="py-2 flex bg-white md:-mt-2">
+                    <img src="/images/phone-call.png" class="block ml-0.5 mt-px h-6">
+                    <span class="mt-px mx-3">+370 678 64 334</span>
+                </li>
             </ul>
 
             <!-- Logo Here -->
-            <a href="index.html" class="bg-logo-black w-full h-9 bg-no-repeat bg-contain z-50
-            md:w-[160px] md:h-12 md:mt-10"></a>
+            <a href="index.html" class="bg-logo-black w-40 h-9 bg-no-repeat bg-contain z-50
+            md:h-12 md:mt-10 md:w-60"></a>
 
-            <!-- Menu links here -->
+            <!-- medium resolution and upwards navigation -->
+            <ul class="hidden md:flex md:w-[100px] md:flex-col md:mt-10">
+                <li class="py-2"><a class="text-md" href="#">APIE MANE</a></li>
+                <li class=""><a class="text-md" href="#">MANO DARBAI</a></li>
+            </ul>
+
+            <!-- mobile menu links here -->
             <div id="menu" class="hidden fixed top-0 right-0">
-            <ul class="top-0 right-0 w-full h-screen py-16 z-50 font-bold flex flex-col justify-center bg-hero2 bg-left bg-550 bg-blue bg-blend-luminosity
+            <ul class="top-0 right-0 w-full h-screen py-16 z-50 font-bold flex flex-col justify-center bg-hero2 bg-left-top bg-no-repeat bg-700 bg-blue bg-blend-luminosity
                 md:relative md:flex md:p-0 md:bg-transparent md:flex-row md:space-x-6 md:mt-4 md:w-[120px] md:text-right">
 
                 <li class="md:hidden fixed top-4 flex flex-col w-full justify-between px-4">
@@ -58,9 +70,8 @@
             </ul>
         </div>
 
-
             <!-- This is used to open the menu on mobile devices -->
-            <div class="flex md:hidden items-center mr-2 z-96">
+            <div class="flex md:hidden items-center z-96">
                 <button class="menuToggle text-black text-4xl font-bold hover:opacity-100 duration-300 mb-3"
                     onclick="toggleMenu()">
                     &#9776;
@@ -69,26 +80,30 @@
     </header>
 
 
-    <section class="h-screen flex flex-col justify-center">
-        <heading class="h-8 w-screen text-center font-bold text-2xl mb-4">VIZŪLKĖS</heading>
-            <div class="work-display h-2/3 w-auto grid grid-rows-2 grid-cols-2 gap-4 mx-4">
-                <div class="border-2 border-black flex bg-kernagis3 bg-cover bg-top">
-                    <button 
-                    onclick="location.href='work-kernagis.html'"
-                    class="border-t-2 border-black h-8 w-full font-bold self-end bg-white text-xs">VYTAUTAS KERNAGIS</button>
-                </div>
-                <div class="border-2 border-black flex bg-ceburekas bg-cover bg-top">
-                    <button class="border-t-2 border-black h-8 w-full font-bold self-end bg-white text-xs">ČEBURĖKŲ LEGENDA</button>
-                </div>
-                <div class="border-2 border-black flex bg-silainiai bg-cover bg-top">
-                    <button class="border-t-2 border-black h-8 w-full font-bold self-end bg-white text-xs">PAMASKOMU</button>
-                </div>
-                <div class="border-2 border-black flex bg-skulptura bg-cover bg-top">
-                    <button class="border-t-2 border-black h-8 w-full font-bold self-end bg-white text-xs">KAŽKOKIA STATULA</button>
-                </div>
+    <div class="lg:w-screen lg:flex lg:justify-center bg-white">
+        <section id="work1" class="h-screen bg-white flex place-content-center items-center flex-col px-10 lg:w-2/3" data-section="bg-white">
+            <h1 class="self-start text-2xl xl:text-5xl font-bold md:text-4xl md:mb-2">ČEBURĖKŲ LEGENDA</h1>
+            <div class="work-img w-full h-1/2 lg:h-2/3 border-black border-4 bg-ceburekas bg-cover bg-center"></div>
+            <div class="work-details 
+            md:flex md:flex-row md:items-between md:w-full md:justify-between md:mt-4">
+                <p class="work-desc text-left leading-4 my-3 font-Inter text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem soluta consequuntur.</p>
+                <button class="border-black border-4 py-2 w-full font-bold
+                md:w-60">DAUGIAU</button>
             </div>
-        </div>
-    </section>
+        </section>
+    
+    </div>
+        <section id="work2" class="h-screen bg-gray-100 flex place-content-center items-center flex-col px-10" data-section="bg-gray">
+            <h1 class="self-start text-2xl xl:text-5xl font-bold md:text-4xl md:mb-2">VYTAUTAS KERNAGIS</h1>
+            <div class="work-img w-full h-1/2 border-black border-4 bg-kernagis3 bg-cover bg-center"></div>
+            <div class="work-details 
+            md:flex md:flex-col md:items-center">
+                <p class="work-desc text-left leading-4 my-3 font-Inter text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem soluta consequuntur.</p>
+                <button class="border-black border-4 py-2 w-full font-bold
+                md:w-1/2">DAUGIAU</button>
+            </div>
+        </section>
+
 
     </main>
     <script src="main.js"></script>
