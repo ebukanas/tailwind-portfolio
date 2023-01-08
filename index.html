@@ -20,14 +20,14 @@
             <div class="md:px-0 h-full w-full mx-4 flex justify-between items-center">
     
                 <!-- Medium resolution upwards contact info -->
-                <ul class="hidden md:flex md:flex-col w-50 md:w-[200px]">
+                <ul class="hidden md:flex md:flex-col w-50 md:w-[250px]">
                     <li class="py-2 flex">
                         <div id="email" class=" bg-contain w-5 h-5 mt-1" data-email></div>
-                        <span class="mt-px mx-3">augustinas@augis.lt</span>
+                        <a href="mailto:augustinas.pietaris@gmail.com"><span class="mt-1 mx-3 text-sm">augustinas.pietaris@gmail.com</span></a>
                     </li>
                     <li class="py-2 flex md:-mt-2">
                         <div id="phone" class="bg-[url('/images/phone-call_white.png')] bg-contain w-5 h-5 mt-1" data-phone></div>
-                        <span class="mt-px mx-3">+370 678 64 334</span>
+                        <a href="tel:+37068716994"><span class="text-sm mt-2 mx-3">+370 687 169 94</span></a>
                     </li>
                 </ul>
     
@@ -37,9 +37,9 @@
                 lg:w-[270px] lg:h-[80px]" data-logo></a>
     
                 <!-- medium resolution and upwards navigation -->
-                <ul class="hidden md:flex md:w-[200px] md:flex-col md:text-right">
-                    <li class="py-2"><a class="text-md" href="#">APIE MANE</a></li>
-                    <li class=""><a class="text-md" href="#">MANO DARBAI</a></li>
+                <ul class="hidden md:flex md:w-[250px] md:flex-col md:text-right">
+                    <li class="py-2"><a class="text-md" href="">APIE MANE</a></li>
+                    <li class=""><a class="text-md" href="workpage.html">MANO DARBAI</a></li>
                 </ul>
     
                 <!-- mobile menu links here -->
@@ -58,7 +58,7 @@
                     <li class="mt-4 py-2 border-4 border-black flex justify-center bg-white"><a class="text-md" href="#">MANO DARBAI</a></li>
     
                     <h1 class="text-2xl my-3 text-center pt-4">SUSISIEKIAM!</h1>
-                    <ul class="sm:hidden">
+                    <ul>
                         <li id="email" class="py-2 border-4 border-black mt-4 flex justify-center bg-white">
                             <img src="/images/email.png" class="block ml-0.5 mt-px h-6">
                             <span class="mt-px mx-3">augustinas@augis.lt</span>
@@ -90,29 +90,32 @@
            md:w-1/2 md:flex md:justify-center">
            <button 
            class="w-full h-12 bg-transparent border-4 border-white text-white mb-14 font-bold
-            md:w-1/2 lg:w-96">MANO MENAS</button>
+            md:w-1/2 lg:w-96 hover:scale-105 duration-200">MANO MENAS</button>
         </a>
     </section>
 
     <section class="h-screen flex flex-col justify-center bg-white" data-section="bg-white">
-        <heading class="h-8 w-screen text-center text-2xl lg:text-4xl lg:mb-8 mb-4">VIZŪLKĖS</heading>
+        <heading class="h-8 w-screen text-center text-2xl lg:text-4xl lg:mb-8 mb-4">PORTFOLIO</heading>
             <div class="work-display h-2/3 lg:h-1/2 w-auto grid grid-rows-2 grid-cols-2 gap-4 mx-4
             md:mx-20 lg:grid-rows-1 lg:grid-cols-4">
-                <div class="border-2 lg:border-4 border-black flex bg-kernagis3 bg-cover bg-top">
-                    <button 
-                    onclick="location.href='work-kernagis.html'"
-                    class="border-t-2 lg:border-t-4 border-black h-8 lg:h-12 w-full font-bold self-end bg-white text-xs 
+
+                <div onclick="location.href='work-kernagis.html'" 
+                     class="cursor-pointer border-2 lg:border-4 border-black flex bg-kernagis3 bg-cover bg-top hover:bg-kernagis2 hover:bg-center duration-300">
+                    <button class="border-t-2 lg:border-t-4 border-black h-8 lg:h-12 w-full font-bold self-end bg-white text-xs 
                     lg:text-base">VYTAUTAS KERNAGIS</button>
                 </div>
-                <div class="border-2 lg:border-4 border-black flex bg-ceburekas bg-cover bg-top">
+                <div onclick="location.href='work-kernagis.html'" 
+                     class="cursor-pointer border-2 lg:border-4 border-black flex bg-ceburekas bg-cover bg-top">
                     <button class="border-t-2 lg:border-t-4 border-black h-8 lg:h-12 w-full font-bold self-end bg-white text-xs 
-                    lg:text-base lg:hover:bg-yellow lg:duration-100">ČEBURĖKŲ LEGENDA</button>
+                    lg:text-base hover:bg-yellow duration-150">ČEBURĖKŲ LEGENDA</button>
                 </div>
-                <div class="border-2 lg:border-4 border-black flex bg-silainiai bg-cover bg-top">
+                <div onclick="location.href='work-kernagis.html'" 
+                     class="cursor-pointer border-2 lg:border-4 border-black flex bg-silainiai bg-cover bg-top">
                     <button class="border-t-2 lg:border-t-4  border-black h-8 lg:h-12 w-full font-bold self-end bg-white text-xs 
                     lg:text-base">PAMASKOMU</button>
                 </div>
-                <div class="border-2 lg:border-4 border-black flex bg-skulptura bg-cover bg-top">
+                <div onclick="location.href='work-kernagis.html'" 
+                     class="cursor-pointer border-2 lg:border-4 border-black flex bg-skulptura bg-cover bg-top">
                     <button class="border-t-2 lg:border-t-4 border-black h-8 lg:h-12 w-full font-bold self-end bg-white text-xs 
                     lg:text-base">KAŽKOKIA STATULA</button>
                 </div>

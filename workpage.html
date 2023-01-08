@@ -18,14 +18,14 @@
             <div class="md:px-0 h-full w-full mx-4 flex justify-between items-center">
     
                 <!-- Medium resolution upwards contact info -->
-                <ul class="hidden md:flex md:flex-col w-50 md:w-[200px]">
+                <ul class="hidden md:flex md:flex-col w-50 md:w-[250px]">
                     <li class="py-2 flex">
                         <div id="email" class=" bg-contain w-5 h-5 mt-1" data-email></div>
-                        <span class="mt-px mx-3">augustinas@augis.lt</span>
+                        <a href="mailto:augustinas.pietaris@gmail.com"><span class="mt-1 mx-3 text-sm">augustinas.pietaris@gmail.com</span></a>
                     </li>
                     <li class="py-2 flex md:-mt-2">
                         <div id="phone" class="bg-[url('/images/phone-call_white.png')] bg-contain w-5 h-5 mt-1" data-phone></div>
-                        <span class="mt-px mx-3">+370 678 64 334</span>
+                        <a href="tel:+37068716994"><span class="text-sm mt-2 mx-3">+370 687 169 94</span></a>
                     </li>
                 </ul>
     
@@ -35,9 +35,9 @@
                 lg:w-[270px] lg:h-[80px]" data-logo></a>
     
                 <!-- medium resolution and upwards navigation -->
-                <ul class="hidden md:flex md:w-[200px] md:flex-col md:text-right">
-                    <li class="py-2"><a class="text-md" href="#">APIE MANE</a></li>
-                    <li class=""><a class="text-md" href="#">MANO DARBAI</a></li>
+                <ul class="hidden md:flex md:w-[250px] md:flex-col md:text-right">
+                    <li class="py-2"><a class="text-md" href="">APIE MANE</a></li>
+                    <li class=""><a class="text-md" href="workpage.html">MANO DARBAI</a></li>
                 </ul>
     
                 <!-- mobile menu links here -->
@@ -56,7 +56,7 @@
                     <li class="mt-4 py-2 border-4 border-black flex justify-center bg-white"><a class="text-md" href="#">MANO DARBAI</a></li>
     
                     <h1 class="text-2xl my-3 text-center pt-4">SUSISIEKIAM!</h1>
-                    <ul class="sm:hidden">
+                    <ul>
                         <li id="email" class="py-2 border-4 border-black mt-4 flex justify-center bg-white">
                             <img src="/images/email.png" class="block ml-0.5 mt-px h-6">
                             <span class="mt-px mx-3">augustinas@augis.lt</span>
@@ -88,9 +88,8 @@
             <div class="work-img w-full h-1/2 lg:h-2/3 border-black border-4 bg-ceburekas bg-cover bg-center"></div>
             <div class="work-details 
             md:flex md:flex-row md:items-between md:w-full md:justify-between md:mt-4">
-                <p class="work-desc text-left leading-4 my-3 font-Inter text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem soluta consequuntur.</p>
-                <button class="border-black border-4 py-2 w-full font-bold hover:bg-yellow duration-100
-                md:w-60">DAUGIAU</button>
+                <p class="work-desc text-left leading-4 my-3 md:my-0 font-Inter text-gray-700">Nors niekas neprašė, bet aš nulipdžiau čeburėko formos kaukę. Nuvažiavom su sesę prie jūros ir valgėm čeburėkus dėvėdami čeburėko kaukę. Tipo ne menas?</p>
+                <button class="border-black border-4 py-2 w-full font-bold hover:bg-yellow duration-100 md:w-60">DAUGIAU</button>
             </div>
         </div>
     </section>
@@ -103,7 +102,7 @@
             <div class="work-img w-full h-1/2 lg:h-2/3 border-black border-4 bg-kernagis3 bg-cover bg-center"></div>
             <div class="work-details 
             md:flex md:flex-row md:items-between md:w-full md:justify-between md:mt-4">
-                <p class="work-desc text-left leading-4 my-3 font-Inter text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem soluta consequuntur.</p>
+                <p class="work-desc text-left leading-4 my-3 md:my-0 font-Inter text-gray-800">Man labai patinka Vytautas Kernagis, todėl mano komoda puošia jo galva. Per daug nesigilinkit, tai ne trofėjus.</p>
                 <button onclick="location.href='work-kernagis.html'"
                 class="border-black border-4 py-2 w-full font-bold hover:bg-gray hover:text-gray-200 duration-100
                 md:w-60">DAUGIAU</button>
@@ -111,6 +110,35 @@
         </div>
     </section>
 
+    <section class="lg:w-screen lg:flex lg:justify-center bg-white h-screen lg:items-center" data-section="bg-gray">
+        <div id="work1" class="h-screen flex place-content-center items-center flex-col px-10 
+        lg:w-2/3 lg:h-2/3 lg:mt-[112px]" data-section="bg-white">
+            <h1 class="self-start text-2xl xl:text-5xl font-bold md:text-4xl md:mb-2">KAŽKOKIA STATULA</h1>
+            <div class="work-img w-full h-1/2 lg:h-2/3 border-black border-4 bg-skulptura bg-cover bg-center"></div>
+            <div class="work-details 
+            md:flex md:flex-row md:items-between md:w-full md:justify-between md:mt-4">
+                <p class="work-desc text-left leading-4 my-3 md:my-0 font-Inter text-gray-800">Kaip patekti į festivalį nemokamai? Praleisk 120 valandų statydamas jiems senovinio stiliaus, elektra besisukančia, šviesomis integruota statulos instaliaciją.</p>
+                <button onclick="location.href='work-kernagis.html'"
+                class="border-black border-4 py-2 w-full font-bold hover:bg-[#5e7611] duration-100
+                md:w-60">DAUGIAU</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="lg:w-screen lg:flex lg:justify-center bg-[#F3F4F6] h-screen lg:items-center" data-section="bg-gray">
+        <div id="work1" class="h-screen flex place-content-center items-center flex-col px-10 
+        lg:w-2/3 lg:h-2/3 lg:mt-[112px]" data-section="bg-white">
+            <h1 class="self-start text-2xl xl:text-5xl font-bold md:text-4xl md:mb-2">PAMASKOMU</h1>
+            <div class="work-img w-full h-1/2 lg:h-2/3 border-black border-4 bg-silainiai bg-cover bg-center"></div>
+            <div class="work-details 
+            md:flex md:flex-row md:items-between md:w-full md:justify-between md:mt-4">
+                <p class="work-desc text-left leading-4 my-3 md:my-0 font-Inter text-gray-800">Prekės ženklas dėl kurio miesto hipsteriai ėjo iš proto. Nostalgijos jausmą sukeliančios iliustracijos, kurias tavo mergina pasididžiuodama dėvėjo ant krutinės.</p>
+                <button onclick="location.href='work-kernagis.html'"
+                class="border-black border-4 py-2 w-full font-bold hover:bg-[#b0d1e4] duration-100
+                md:w-60">DAUGIAU</button>
+            </div>
+        </div>
+    </section>
 
     </main>
     <script src="main.js"></script>

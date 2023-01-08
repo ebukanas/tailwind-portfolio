@@ -22,14 +22,14 @@
         <header class="w-full h-16 md:h-20 bg-white fixed z-50 flex justify-between lg:h-[7rem]" data-header="bg-white">
             <div class="md:px-0 h-full w-full mx-4 flex justify-between items-center">
                 <!-- Medium resolution upwards contact info -->
-                <ul class="hidden md:flex md:flex-col w-50 md:w-[200px]">
+                <ul class="hidden md:flex md:flex-col w-50 md:w-[250px]">
                     <li class="py-2 flex">
-                        <div id="email" class="bg-[url('/images/email.png')] bg-contain w-5 h-5 mt-1"></div>
-                        <span class="mt-px mx-3">augustinas@augis.lt</span>
+                        <div id="email" class=" bg-contain w-5 h-5 mt-1" data-email></div>
+                        <a href="mailto:augustinas.pietaris@gmail.com"><span class="mt-1 mx-3 text-sm">augustinas.pietaris@gmail.com</span></a>
                     </li>
                     <li class="py-2 flex md:-mt-2">
-                        <div id="phone" class="bg-[url('/images/phone-call.png')] bg-contain w-5 h-5 mt-1"></div>
-                        <span class="mt-px mx-3">+370 678 64 334</span>
+                        <div id="phone" class="bg-[url('/images/phone-call_white.png')] bg-contain w-5 h-5 mt-1" data-phone></div>
+                        <a href="tel:+37068716994"><span class="text-sm mt-2 mx-3">+370 687 169 94</span></a>
                     </li>
                 </ul>
     
@@ -39,9 +39,9 @@
                 lg:w-[270px] lg:h-[80px]" data-logo></a>
     
                 <!-- medium resolution and upwards navigation -->
-                <ul class="hidden md:flex md:w-[200px] md:flex-col md:text-right">
-                    <li class="py-2"><a class="text-md" href="#">APIE MANE</a></li>
-                    <li class=""><a class="text-md" href="#">MANO DARBAI</a></li>
+                <ul class="hidden md:flex md:w-[250px] md:flex-col md:text-right">
+                    <li class="py-2"><a class="text-md" href="">APIE MANE</a></li>
+                    <li class=""><a class="text-md" href="workpage.html">MANO DARBAI</a></li>
                 </ul>
     
                 <!-- mobile menu links here -->
@@ -60,7 +60,7 @@
                     <li class="mt-4 py-2 border-4 border-black flex justify-center bg-white"><a class="text-md" href="#">MANO DARBAI</a></li>
     
                     <h1 class="text-2xl my-3 text-center pt-4">SUSISIEKIAM!</h1>
-                    <ul class="sm:hidden">
+                    <ul>
                         <li id="email" class="py-2 border-4 border-black mt-4 flex justify-center bg-white">
                             <img src="/images/email.png" class="block ml-0.5 mt-px h-6">
                             <span class="mt-px mx-3">augustinas@augis.lt</span>
@@ -84,18 +84,19 @@
                 </div>
     </header>
 
+    <!-- swiperjs slideshow -->
     <section class="hidden h-screen w-full bg-white md:flex justify-center align-center">
         <div class="w-4/5 h-4/5 mt-[112px]">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="h-full w-full bg-kernagis3 bg-cover bg-no-repeat flex">
-                        <p class="w-1/3 pt-4 pl-6 text-left text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem eius minima nihil labore numquam soluta recusandae ducimus voluptatibus sapiente alias exercitationem aut pariatur quas ab eos nobis consequuntur, deleniti illo!</p>
+                        <p class="w-1/3 pt-4 pl-6 text-left text-gray-300 md:w-2/3 lg:w-1/3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem eius minima nihil labore numquam soluta recusandae ducimus voluptatibus sapiente alias exercitationem aut pariatur quas ab eos nobis consequuntur, deleniti illo!</p>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="h-full w-full bg-kernagis2 bg-cover bg-no-repeat flex">
-                        <p class="w-full pt-4 pl-6 text-left text-gray-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem eius minima nihil labore numquam soluta recusandae ducimus voluptatibus sapiente alias exercitationem aut pariatur quas ab eos nobis consequuntur, deleniti illo!</p>
+                        <p class="w-full p-4 text-left text-[#4A4A4A]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem eius minima nihil labore numquam soluta recusandae ducimus voluptatibus sapiente alias exercitationem aut pariatur quas ab eos nobis consequuntur, deleniti illo!</p>
                     </div>
                 </div>
                 <div class="swiper-slide">
@@ -107,7 +108,7 @@
         </div>
     </section>
   
-    
+<!-- mobile version showcase  -->
     <section class="h-fit mx-3 relative pt-16 md:hidden">
         <div class="relative">
             <img class="object-cover h-550" src="/images/galva10.jpg" alt=""> 
@@ -144,6 +145,7 @@
         enabled:true,
         horizontalClass: 'swiper-scrollbar-horizontal',
         },
+        mousewheel: true,
       });
     </script>
 
