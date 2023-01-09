@@ -722,10 +722,6 @@ h1, heading, button {
   width: auto;
 }
 
-.w-4\/5 {
-  width: 80%;
-}
-
 .w-1\/3 {
   width: 33.333333%;
 }
@@ -863,6 +859,14 @@ h1, heading, button {
 
 .bg-skulptura {
   background-image: url('/images/skulptura8.jpg');
+}
+
+.bg-\[url\(\'\/images\/email\.png\'\)\] {
+  background-image: url('/images/email.png');
+}
+
+.bg-\[url\(\'\/images\/phone-call\.png\'\)\] {
+  background-image: url('/images/phone-call.png');
 }
 
 .bg-kernagis2 {
@@ -1285,6 +1289,10 @@ h1, heading, button {
 
   .md\:w-1\/2 {
     width: 50%;
+  }
+
+  .md\:w-\[500px\] {
+    width: 500px;
   }
 
   .md\:w-full {
